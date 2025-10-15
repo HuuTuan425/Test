@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      button {
+        background-color: crimson;
+        color: white;
+        justify-items: end;
+        display: block;
+        margin-left: auto;
+      }
+      .giuong label {
+        margin-right: 100px;
+      }
+      div.lon {
+        border: 2px solid black;
+        border-width: 50%;
+        padding: 10px;
+      }
+      button {
+        padding-right: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 30px;
+        margin-top: 10px;
+      }
+      p {
+        margin: 20px;
+        font-weight: bold;
+      }
+      textarea {
+        margin-left: 20px;
+        border-radius: 10px;
+      }
+      input {
+        margin-left: 30px;
+      }
+      h2 {
+        margin: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="lon">
+      <h2>Yêu cầu đặc biệt</h2>
+      <form action="" method="">
+        <div class="giuong">
+          <p>Chọn loại giường</p>
+          <label
+            ><input type="radio" name="1" id="1" value="" />1 giường king
+          </label>
+          <label>
+            <input type="radio" name="1" id="1" value="" />2 giường đơn
+          </label>
+        </div>
+
+        <div>
+          <label for="phong">
+            <p>Yêu cầu đặc biệt</p>
+            <input type="checkbox" name="1" id="phong" value="" />Phòng không
+            hút thuốc <br /><br />
+            <input type="checkbox" name="2" id="phong" value="" />Phòng ở tầng
+            cao
+          </label>
+        </div>
+        <div>
+          <label>
+            <p>Yêu cầu riêng của bạn</p>
+            <textarea
+              rows="5"
+              cols="77"
+              placeholder="Nhập yêu cầu khác"
+            ></textarea>
+          </label>
+        </div>
+        <button type="submit">Thanh toán</button>
+      </form>
+    </div>
+  </body>
+</html>
